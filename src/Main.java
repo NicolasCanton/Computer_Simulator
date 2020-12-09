@@ -9,8 +9,6 @@ public class Main {
 
         Software sw2 = new Software("Skype" ,"64 bits" ,1 ,1);
 
-        public void install (OperatingSystem) {
-        if (this.os != null && hardDisk
-        }
+
     }
 }

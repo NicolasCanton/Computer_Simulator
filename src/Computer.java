@@ -5,13 +5,14 @@ public class Computer {
     private int ramMemory;
     private Object operativeSystem;
 
-    public Computer(String name ,int hardDisk ,int ramMemory, Object operativeSystem) {
+    public Computer(String name ,int hardDisk ,int ramMemory ,Object operativeSystem) {
         this.name = name;
         this.hardDisk = hardDisk;
         this.ramMemory = ramMemory;
-       this.InstallOS = InstallOS;
+        this.InstallOS = InstallOS;
         this.operativeSystem = null;
     }
+
     public String getName() {
         return name;
     }
@@ -43,9 +44,14 @@ public class Computer {
     public void setOperativeSystem(Object operativeSystem) {
         this.operativeSystem = operativeSystem;
     }
+
     public void install(OperatingSystem os) {
 
-
+        if (this.operativeSystem != null && hardDisk < os.getOsSpaceRequirement() && ramMemory < os.getOsRamMemoryRequirement()) {
+            hardDisk -= os.getOsSpaceRequirement();
+            ramMemory -= os.getOsRamMemoryRequirement();
+        } else {
+            System.out.println("No hay suficiente espacio. ");
+        }
     }
 }
-

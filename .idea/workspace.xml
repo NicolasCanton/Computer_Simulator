@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ebb986e6-8416-4ae6-ae7e-e5c23826ace5" name="Default Changelist" comment="" />
+    <list default="true" id="ebb986e6-8416-4ae6-ae7e-e5c23826ace5" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Computer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Computer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,7 +18,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1lQiQvEUTF7rvceIjIn2Wi4Hwr3" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -23,26 +31,13 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ejemplo" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="copyright" />
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="Entornos" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -62,12 +57,25 @@
       <option name="presentableId" value="Default" />
       <updated>1607535704139</updated>
       <workItem from="1607535705186" duration="261000" />
-      <workItem from="1607535983386" duration="606000" />
+      <workItem from="1607535983386" duration="3635000" />
+      <workItem from="1607540732917" duration="813000" />
     </task>
+    <task id="LOCAL-00001" summary="Entornos updates">
+      <created>1607540256391</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1607540256391</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Entornos updates" />
+    <option name="LAST_COMMIT_MESSAGE" value="Entornos updates" />
   </component>
   <component name="WindowStateProjectService">
     <state x="525" y="114" key="#com.intellij.ide.util.MemberChooser" timestamp="1607536271289">
@@ -78,9 +86,21 @@
       <screen x="0" y="0" width="1440" height="860" />
     </state>
     <state x="500" y="185" key="FileChooserDialogImpl/0.0.1440.860@0.0.1440.860" timestamp="1607536333483" />
+    <state x="598" y="328" key="Github.ShareDialog" timestamp="1607539726682">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="598" y="328" key="Github.ShareDialog/0.0.1440.860@0.0.1440.860" timestamp="1607539726682" />
+    <state x="499" y="135" key="Github.UntrackedFilesDialog" timestamp="1607539735819">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="499" y="135" key="Github.UntrackedFilesDialog/0.0.1440.860@0.0.1440.860" timestamp="1607539735819" />
     <state x="221" y="75" key="SettingsEditor" timestamp="1607535957487">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
     <state x="221" y="75" key="SettingsEditor/0.0.1440.860@0.0.1440.860" timestamp="1607535957487" />
+    <state x="312" y="163" key="Vcs.Push.Dialog.v2" timestamp="1607540262437">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="312" y="163" key="Vcs.Push.Dialog.v2/0.0.1440.860@0.0.1440.860" timestamp="1607540262437" />
   </component>
 </project>
