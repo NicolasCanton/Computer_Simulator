@@ -47,11 +47,17 @@ public class Computer {
 
     public void install(OperatingSystem os) {
 
-        if (this.operativeSystem != null && hardDisk < os.getOsSpaceRequirement() && ramMemory < os.getOsRamMemoryRequirement()) {
-            hardDisk -= os.getOsSpaceRequirement();
-            ramMemory -= os.getOsRamMemoryRequirement();
+        if (this.operativeSystem != null && hardDisk > os.getOsSpaceRequirement() && ramMemory > os.getOsRamMemoryRequirement()) {
+            this.hardDisk = hardDisk-os.getOsSpaceRequirement();
+            this.ramMemory = ramMemory-os.getOsRamMemoryRequirement();
+            System.out.println("Hay espacio suficiente y quedan " + hardDisk + " GB restantes" + ramMemory + " GB restantes ");
         } else {
             System.out.println("No hay suficiente espacio. ");
         }
+    }
+    public void format(OperatingSystem os) {
+        hardDisk += os.getOsSpaceRequirement();
+        ramMemory += +os.getOsRamMemoryRequirement();
+        operativeSystem = null;
     }
 }

@@ -5,7 +5,7 @@ public class OperatingSystem {
     private boolean osOnlyCommand;
     private int osSpaceRequirement;
     private int osRamMemoryRequirement;
-    private Software[] osSofware;
+    private Software[] osSoftware;
 
     OperatingSystem(String osName ,String osVersion ,String osArchitecture ,boolean osOnlyCommand ,int osSpaceRequirement ,int osRamMemoryRequirement) {
         this.osName = osName;
@@ -64,12 +64,16 @@ public class OperatingSystem {
         this.osRamMemoryRequirement = osRamMemoryRequirement;
     }
 
-    public Software[] getOsSofware() {
-        return osSofware;
+    public Software[] getOsSoftware() {
+        return osSoftware;
     }
 
-    public void setOsSofware(Software[] osSofware) {
-        this.osSofware = osSofware;
+    public void setOsSoftware(Software[] osSoftware) {
+        this.osSoftware = osSoftware;
+    }
+
+    public void installSw(Software sw1) {
+
     }
 }
 
