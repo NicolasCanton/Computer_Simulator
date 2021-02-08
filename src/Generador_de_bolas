@@ -17,7 +17,7 @@ public class Generador_de_bolas {
         System.out.println("El número es: " + bola);
         }
 
-    public void game1vs1(Jugador jugador, Jugador jugador2){
+    public void jugar(Jugador jugador, Jugador jugador2){
         while (!victoria) {
             if (jugador.cartulina.size() != 0 && jugador2.cartulina.size() != 0) {
                 generar();
