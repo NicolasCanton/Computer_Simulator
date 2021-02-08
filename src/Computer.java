@@ -1,63 +1,19 @@
-public class Computer {
-    private Object InstallOS = new Object();
-    private String name;
-    private int hardDisk;
-    private int ramMemory;
-    private Object operativeSystem;
+import java.util.ArrayList;
 
-    public Computer(String name ,int hardDisk ,int ramMemory ,Object operativeSystem) {
-        this.name = name;
-        this.hardDisk = hardDisk;
-        this.ramMemory = ramMemory;
-        this.InstallOS = InstallOS;
-        this.operativeSystem = null;
-    }
+public class Jugador {
+    ArrayList<Integer> cartulina = new ArrayList<>();
 
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public int getHardDisk() {
-        return hardDisk;
-    }
-
-    public void setHardDisk(int hardDisk) {
-        this.hardDisk = hardDisk;
-    }
-
-    public int getRamMemory() {
-        return ramMemory;
-    }
-
-    public void setRamMemory(int ramMemory) {
-        this.ramMemory = ramMemory;
-    }
-
-    public Object getOperativeSystem() {
-        return operativeSystem;
-    }
-
-    public void setOperativeSystem(Object operativeSystem) {
-        this.operativeSystem = operativeSystem;
-    }
-
-    public void install(OperatingSystem os) {
-
-        if (this.operativeSystem != null && hardDisk > os.getOsSpaceRequirement() && ramMemory > os.getOsRamMemoryRequirement()) {
-            this.hardDisk = hardDisk-os.getOsSpaceRequirement();
-            this.ramMemory = ramMemory-os.getOsRamMemoryRequirement();
-            System.out.println("Hay espacio suficiente y quedan " + hardDisk + " GB restantes" + ramMemory + " GB restantes ");
-        } else {
-            System.out.println("No hay suficiente espacio. ");
+    public void rellenar() {
+        boolean repetido=false;
+        System.out.println("\n\nCartulina");
+        for (int i = 0; i < 10; i++) {
+            int random = (int) (Math.random() * 100);
+            if (cartulina1.contains(numero)){
+                i--;
+            }
+            else cartulina.add(random);
+            System.out.print(cartulina.get(i) + " ");
         }
-    }
-    public void format(OperatingSystem os) {
-        hardDisk += os.getOsSpaceRequirement();
-        ramMemory += +os.getOsRamMemoryRequirement();
-        operativeSystem = null;
+
     }
 }
