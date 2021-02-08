@@ -7,7 +7,7 @@ public class Bingo {
         Jugador.rellenar();
         Jugador2.rellenar();
         Generador_de_bolas generar=new Generador_de_bolas();
-         Generador_de_bolas.(Jugador,Jugador2);
+         Generador_de_bolas.jugar(Jugador,Jugador2);
     }
 
 }
