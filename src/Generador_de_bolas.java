@@ -15,12 +15,12 @@ public class Generador_de_bolas {
         numero.add(bola);
         System.out.println(" ");
         System.out.println("El número es: " + bola);
-        }
+    }
 
-    public void jugar(Jugador jugador, Jugador jugador2){
+    public void jugar(Jugadores jugador ,Jugadores jugador2){
         while (!victoria) {
             if (jugador.cartulina.size() != 0 && jugador2.cartulina.size() != 0) {
-                generar();
+                generador();
             } else System.out.println("Hay un error");
             if (jugador.cartulina.contains(bola)) {
                 jugador.cartulina.remove(jugador.cartulina.indexOf(bola));
@@ -37,7 +37,7 @@ public class Generador_de_bolas {
             } else if (jugador.cartulina.size()==0){
                 System.out.println("\n Ha ganado el jugador 1");
                 victoria = true;
-            } else if(jugador2.cartulina1.size()==0){
+            } else if(jugador2.cartulina.size()==0){
                 System.out.println("\nHa ganado el jugador 2");
                 victoria = true;
             }else System.out.println("\nContinuamos jugando");
@@ -45,5 +45,3 @@ public class Generador_de_bolas {
 
     }
 }
-
-
